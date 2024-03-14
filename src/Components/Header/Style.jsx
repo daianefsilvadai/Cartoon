@@ -8,21 +8,13 @@ export const HeaderStyle = styled.header`
   align-items: center;
   padding: 1rem;
 
-  img {
-    width: 200px;
-    height: 67px;
-  }
+  /* @media(min-width:360px) */
 `;
 
 export const Section = styled.section`
   display: flex;
   width: 30vw;
   justify-content: space-evenly;
-
-  img {
-    width: 95px;
-    height: 90px;
-  }
 `;
 
 export const Div = styled.div`

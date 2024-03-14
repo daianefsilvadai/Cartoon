@@ -1,43 +1,58 @@
 import styled from "styled-components";
 
 export const FooterStyle = styled.footer`
+  /* border: solid green; */
   display: flex;
+  flex-direction: column;
   background-color: #211921;
-  height: 20vh;
-  align-items: center;
-  padding: 2rem;
+  justify-content: space-around;
+  color: white;
 `;
 
 export const SectionFirst = styled.section`
-  color: #ffffff;
-  width: 100%;
+  /* border: solid blue; */
   display: flex;
-  height: 8vh;
-  display: flex;
-
-  img {
-    width: 300px;
-  }
+  height: 20vh;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  padding: 1rem;
 `;
 
-export const DivFirst = styled.div`
+export const ImgLogo = styled.img`
+  width: 35vh;
+  height: 8vh;
+  /* border: solid red; */
+  display: flex;
+`;
+
+export const Ul = styled.ul`
+  /* border: solid gray; */
   display: flex;
   width: 100%;
-  align-items: center;
   justify-content: space-evenly;
+`;
 
-  p {
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-  }
+export const Li = styled.li`
+  font-size: 1.5rem;
+  list-style-type: none;
 `;
 
 export const DivSecond = styled.div`
   display: flex;
   gap: 1rem;
+  justify-content: space-evenly;
+`;
 
-  img {
-    width: 60px;
-  }
+export const ImgIcon = styled.img`
+  /* border: solid violet; */
+  width: 10vh;
+`;
+
+export const SectionThird = styled.section`
+  background-color: #edd820;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+  height: 10vh;
+  align-items: center;
 `;

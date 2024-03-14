@@ -6,18 +6,21 @@ import icone2 from "./Imagens/iconelinkedin.png";
 function Footer() {
   return (
     <S.FooterStyle>
-      <img src={logo} alt="" />
       <S.SectionFirst>
-        <S.DivFirst>
-          <p>Sobre nós</p>
-          <p>Produtos</p>
-          <p>Personagens</p>
-        </S.DivFirst>
+        <S.ImgLogo src={logo} alt="" />
+        <S.Ul>
+          <S.Li>Sobre nós</S.Li>
+          <S.Li>Produtos</S.Li>
+          <S.Li>Personagens</S.Li>
+        </S.Ul>
         <S.DivSecond>
-          <img src={icone1} alt="" />
-          <img src={icone2} alt="" />
+          <S.ImgIcon src={icone2} alt="" />
+          <S.ImgIcon src={icone1} alt="" />
         </S.DivSecond>
       </S.SectionFirst>
+      <S.SectionThird>
+        <h2>© 2024 Cartoon Network</h2>
+      </S.SectionThird>
     </S.FooterStyle>
   );
 }

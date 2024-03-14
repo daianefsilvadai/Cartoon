@@ -6,7 +6,7 @@ import * as S from "./Style";
 function Header() {
   return (
     <S.HeaderStyle>
-      <img src={logo} alt="logo cartoo" />;
+      <img src={logo} alt="logo cartoo" />
       <S.Section>
         <S.Div>
           <img src={controle} alt="controle de mesa de videogame" />
