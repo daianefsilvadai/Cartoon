@@ -64,24 +64,24 @@ function Programacao() {
       <S.Section>
         {desenhos.map((item) => (
           <S.Card key={item.id}>
-            <h2>{item.hora}</h2>
-            <h2> {item.nome} </h2>
-            <img src={item.imagem} alt="" />
+            <S.H3Card> {item.nome}</S.H3Card>
+            <S.H3Card>{item.hora}</S.H3Card>
+            <S.ImgCard src={item.imagem} alt="" />
           </S.Card>
         ))}
       </S.Section>
 
-      <S.Section2>
-        <h2>Desenhos da manhã</h2>
+      <S.SectionSecond>
+        <S.H2Second>Desenhos da Manhã</S.H2Second>
 
         {desenhoAntesMeioDia.map((item) => (
-          <div key={item.id}>
-            <h3> {item.nome} </h3>
-            <h3> {item.hora} </h3>
-            <img src={item.imagem} alt={item.nome} />
-          </div>
+          <S.CardSecond key={item.id}>
+            <S.H3Second> {item.nome} </S.H3Second>
+            <S.H3Second> {item.hora} </S.H3Second>
+            <S.ImgCardSecond src={item.imagem} alt={item.nome} />
+          </S.CardSecond>
         ))}
-      </S.Section2>
+      </S.SectionSecond>
     </>
   );
 }

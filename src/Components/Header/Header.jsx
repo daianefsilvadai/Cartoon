@@ -6,15 +6,15 @@ import * as S from "./Style";
 function Header() {
   return (
     <S.HeaderStyle>
-      <img src={logo} alt="logo cartoo" />
+      <S.ImgLogo src={logo} alt="logo cartoo" />
       <S.Section>
         <S.Div>
-          <img src={controle} alt="controle de mesa de videogame" />
-          <h2>JOGOS</h2>
+          <S.ImgControl src={controle} alt="controle de mesa de videogame" />
+          <S.Subtitle>JOGOS</S.Subtitle>
         </S.Div>
         <S.Div>
-          <img src={relogio} alt="relogio pequeno" />
-          <h2>PROGRAMAÇÃO</h2>
+          <S.ImgClock src={relogio} alt="relogio pequeno" />
+          <S.Subtitle>PROGRAMAÇÃO</S.Subtitle>
         </S.Div>
       </S.Section>
     </S.HeaderStyle>

@@ -7,11 +7,11 @@ export const SectionFirst = styled.section`
   background-color: #211921;
   justify-content: space-evenly;
   height: 35vh;
+`;
 
-  img {
-    width: 400px;
-    height: 120px;
-  }
+export const ImgFirst = styled.img`
+  width: 400px;
+  height: 120px;
 `;
 
 export const SectionSecond = styled.section`
@@ -21,9 +21,9 @@ export const SectionSecond = styled.section`
   justify-content: center;
   justify-content: space-evenly;
   height: 35vh;
+`;
 
-  img {
-    width: 350px;
-    height: 160px;
-  }
+export const ImgSecond = styled.img`
+  width: 379px;
+  height: 150px;
 `;

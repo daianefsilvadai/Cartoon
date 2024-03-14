@@ -14,14 +14,14 @@ function Main() {
   return (
     <main>
       <S.SectionFirst>
-        <img src={scooby} alt="" />
-        <img src={ben10} alt="" />
-        <img src={looneytunes} alt="" />
+        <S.ImgFirst src={scooby} alt="" />
+        <S.ImgFirst src={ben10} alt="" />
+        <S.ImgFirst src={looneytunes} alt="" />
       </S.SectionFirst>
 
       <S.SectionSecond>
         {galeria.map((item) => (
-          <img src={item} key={item.id} alt="" />
+          <S.ImgSecond src={item} key={item.id} alt="" />
         ))}
       </S.SectionSecond>
 
