@@ -40,4 +40,5 @@ export const ImgClock = styled.img`
 export const Subtitle = styled.h2`
   font-family: Roboto, sans-serif;
   font-weight: 500;
+  cursor: pointer;
 `;

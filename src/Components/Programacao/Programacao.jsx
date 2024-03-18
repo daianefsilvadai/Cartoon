@@ -9,6 +9,7 @@ import monica from "./Imagens/monica.png";
 import steven from "./Imagens/steven.png";
 import billy from "./Imagens/billy.png";
 
+//array de objeto.
 function Programacao() {
   const [desenhos, setDesenhos] = useState([
     {
@@ -59,6 +60,7 @@ function Programacao() {
   const desenhoAntesMeioDia = desenhos.filter(
     (item) => item.desenhoManha === true
   );
+
   return (
     <>
       <S.Section>
